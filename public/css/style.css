@@ -2,7 +2,19 @@ li {
 	font-family: 'Raleway', sans-serif;
 }
 
-.nav-title {
+.navbar {
+	margin-bottom: 0;
+}
+
+.image-header {
+	margin: 0;
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#nav-title {
 	font-family: 'Rock Salt', cursive;
+	color: #FDDD38;
 }
 
