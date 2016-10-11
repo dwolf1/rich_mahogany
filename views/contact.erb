@@ -1,0 +1,17 @@
+<h2>Contact Us!</h2>
+
+
+<form method="POST" action="/contact" class="form-horizontal">
+	<div class="cf-col col-lg-6 col-md-6 col-sm-8 col-xs-11">
+		<div class="row form-group">
+			<input name="fname" placeholder="First Name *" class="form-control">
+			<input name="lname" placeholder="Last Name *" class="form-control">
+			<input type="email" name="email" placeholder="Email *" class="form-control">
+			<input type="subject" name="subject" placeholder="Subject *" class="form-control">
+			<textarea name="message" placeholder="Message *" class="form-control" rows="6"></textarea>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</div>
+	</div>
+</form>
+
+<span id="console"><%= @msg %></span>
