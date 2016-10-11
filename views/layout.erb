@@ -7,8 +7,11 @@
   <!-- JS & JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
   <script src="js/main.js"></script>
+=======
+>>>>>>> eaf6d39ff4852fc40d22aea9e6aeb941281980b5
 
   <!-- STYLE -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,8 +36,9 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-        
+
         <% $menu.each do |item| %>
+
         <li><a href="<%= item[:href] %>"><%= item[:page] %></a></li>
         <% end %>
         </ul>
@@ -43,6 +47,7 @@
   </nav>
 
   <div class="container-fluid image-header">
+
     <div class="row">
       <div class="col-lg-12 our-container">
   <!-- Time to Yield! -->
@@ -51,5 +56,6 @@
   </div>
   </div>
   </div>
+
 </body>
 </html>
