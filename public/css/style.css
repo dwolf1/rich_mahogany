@@ -64,7 +64,7 @@ li {
 	position:absolute;
 	top:0px;
 	left:0px;
-	background:transparent url(/images/greg.jpg) no-repeat top left;
+	background:transparent url(/img/bw.jpg) no-repeat top left;
 }
 
 .ei_image{
@@ -74,7 +74,7 @@ li {
 	width:75px;
 	height:350px;
 	opacity:0.2;
-	background:transparent url(../images/color.jpg) no-repeat top left;
+	background:transparent url(/img/color.jpg) no-repeat top left;
 }
 
 .pos1 span{
@@ -102,7 +102,7 @@ li {
 	color:#333;
 	padding:10px;
 	text-shadow:0px 0px 1px #fff;
-	background:#fff url(../images/stripe_light.gif) repeat top left;
+	background:#fff url(img/stripe_light.gif) repeat top left;
 }
 
 .ei_descr h3{
@@ -115,7 +115,7 @@ li {
 }
 
 .ei_descr p{
-	color:#000;
+	color:white;
 	padding:10px 5px 0px 5px;
 	line-height:18px;
 	font-size:11px;
