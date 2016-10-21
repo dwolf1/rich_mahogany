@@ -4,16 +4,16 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+
+h2 {
 	margin: 91px auto 40px auto;
 	font-family: 'Rock Salt', cursive;
 	text-align: center;
-	color: white;
+	color: #FDDD38;
+	text-shadow: 2px 2px black;
+	font-size: 48px;
 }
 
-h2 {
-	display: block;
-}
 
 /* BACKGROUND STYLE */
 
@@ -32,16 +32,60 @@ h2 {
 	margin-left: 0px; 
 }
 
+/* HOME STYLE */
+
+#home_title {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: #FDDD38;
+	text-shadow: 6px 2px black;
+	font-size: 96px;
+	margin-bottom: 50px;
+	margin-top: 110px;
+}
+
+#about_us {
+	color: white;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	text-shadow: 1px 1px red;
+}
+
+/* Gallery Page*/
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 215px;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
 /* NEWS STYLE */
 
-tr {
+.table_wrapper table tr {
+	font-family: 'Raleway', sans-serif;
 	background: rgba(16,16,16,0.8);
 	color: #fff;
 	margin-bottom: 10px;
 	opacity: 0.75;
 }
 
-td {
+.table_wrapper table tr td {
 	padding: 10px;
 	display: block;
 }
@@ -100,5 +144,42 @@ input, textarea {
 .console {
 	display: block;
 	text-align: center;
+}
+
+/* SCHEDULE STYLE */
+
+#sched {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: #FDDD38;
+	text-shadow: 2px 2px black;
+	font-size: 48px;
+	margin-bottom: 50px;
+}
+
+.schedule_table {
+	margin: 0px auto;
+	width: 450px;
+}
+
+.table_head {
 	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 24px;
+	font-family: 'Rock Salt', sans-serif;
+	text-align: center;
+	border-bottom: 40px;
+}
+
+.schedule_table tr {
+	border-bottom: 1px solid #cccccc;
+}
+
+.schedule_table tr td {
+  border: 1px solid #cccccc;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  padding: 20px;
+  color: white;
+  text-align: center;
 }

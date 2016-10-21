@@ -2,14 +2,15 @@ require 'sinatra'
 require 'sendgrid-ruby'
 include SendGrid
 
+
 $menu = [
-	    {page: 'Home', href: '/'},
-	    {page: 'About', href: '/about'},
-	    {page: 'Gallery', href: '/gallery'},
-	    {page: 'Schedule', href: '/schedule'},
-	    {page: 'News', href: '/news'},
-	    {page: 'Contact', href: '/contact'}
-  	]
+	{page: 'Home', href: '/'},
+	{page: 'About', href: '/about'},
+	{page: 'Gallery', href: '/gallery'},
+	{page: 'Schedule', href: '/schedule'},
+	{page: 'News', href: '/news'},
+	{page: 'Contact', href: '/contact'}
+]
 
  get '/' do
  	@title = "Rich Mahogany :: Home" 
