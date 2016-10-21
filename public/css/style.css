@@ -24,7 +24,144 @@ h2 {
 	overflow: hidden;
 }
 
-/* NAV STYLE */
+/*Home Page*/
+
+#home_title {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: #FDDD38;
+	text-shadow: 6px 2px black;
+	font-size: 96px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+#about_us {
+	color: white;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	text-shadow: 1px 1px red;
+}
+/*About Us Page*/
+.ei_menu{
+	background:#111;
+	width:100%;
+	overflow:hidden;
+}
+
+.ei_menu ul{
+	height:350px;
+	margin-left:50px;
+	position:relative;
+	display:block;
+	width:1300px;
+}
+
+.ei_menu ul li{
+	float:left;
+	width:75px;
+	height:350px;
+	position:relative;
+	overflow:hidden;
+	border-right:2px solid #111;
+}
+
+.ei_preview{
+	width:75px;
+	height:350px;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:transparent url(/img/bw.jpg) no-repeat top left;
+}
+
+.ei_image{
+	position:absolute;
+	left:75px;
+	top:0px;
+	width:75px;
+	height:350px;
+	opacity:0.2;
+	background:transparent url(/img/color.jpg) no-repeat top left;
+}
+
+.pos1 span{
+	background-position:0px 0px;
+}
+.pos2 span{
+	background-position:-75px 0px;
+}
+.pos3 span{
+	background-position:-152px 0px;
+}
+.pos4 span{
+	background-position:-227px 0px;
+}
+.pos5 span{
+	background-position:-302px 0px;
+}
+.pos6 span{
+	background-position:-377px 0px;
+}
+
+.ei_descr h2{
+	font-family: 'Rock Salt', arial, serif;
+	font-size:26px;
+	color:#333;
+	padding:10px;
+	text-shadow:0px 0px 1px #fff;
+	background:#fff url(img/stripe_light.gif) repeat top left;
+}
+
+.ei_descr h3{
+	font-family: 'Raleway', arial, serif;
+	color:#fff;
+	text-shadow:0px 0px 1px #000;
+	font-style:normal;
+	padding:10px;
+	background:#333;
+}
+
+.ei_descr p{
+	color:white;
+	padding:10px 5px 0px 5px;
+	line-height:18px;
+	font-size:11px;
+	font-family: Arial, sans-serif;
+	text-transform:uppercase;
+}
+
+#heading3 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 32px;
+	color: #FDDD38;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+/* Gallery Page*/
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 215px;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
 
 #nav-title {
 	font-family: 'Rock Salt', cursive;
@@ -171,11 +308,13 @@ input, textarea {
 	border-bottom: 40px;
 }
 
+
 .schedule_table tr {
 	border-bottom: 1px solid #cccccc;
 }
 
-.schedule_table tr td {
+.schedule_table td {
+
   border: 1px solid #cccccc;
   font-family: 'Times New Roman', serif;
   font-size: 18px;

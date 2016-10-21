@@ -138,6 +138,11 @@ a:hover{
 	opacity:0.2;
 	background:transparent url(../img/color.jpg) no-repeat top left;
 }
+
+.ei_descr h2 {
+	margin-top: 10px; 
+}
+
 .pos1 span{
 	background-position:0px 0px;
 }
